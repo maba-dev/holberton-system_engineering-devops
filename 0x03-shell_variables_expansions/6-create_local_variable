@@ -1,2 +1,2 @@
 #!/bin/bash
-local loc_BETTY="Holberton"
+BETTY="Holberton"
