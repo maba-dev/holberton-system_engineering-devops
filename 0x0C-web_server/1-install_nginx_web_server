@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 24 Aug 2021 00:47:41 GMT
+Content-Type: text/html
+Content-Length: 17
+Last-Modified: Tue, 24 Aug 2021 00:31:41 GMT
+Connection: keep-alive
+ETag: "61243ded-11"
+Accept-Ranges: bytes
+
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 24 Aug 2021 00:47:41 GMT
+Content-Type: text/html
+Content-Length: 17
+Last-Modified: Tue, 24 Aug 2021 00:31:41 GMT
+Connection: keep-alive
+ETag: "61243ded-11"
+Accept-Ranges: bytes
+
