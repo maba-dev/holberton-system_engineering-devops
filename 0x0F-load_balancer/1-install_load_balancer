@@ -13,4 +13,3 @@ backend rif_app_web-backend
         server 2744-web-01 35.196.9.127:80 check
         server 2744-web-02 34.138.222.145:80 check" >> /etc/haproxy/haproxy.cfg
 service haproxy restart
-
