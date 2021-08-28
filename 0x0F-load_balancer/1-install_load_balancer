@@ -3,7 +3,7 @@
 
 sudo su
 apt-get -y update
-apt-get -y install haproxy=2.0.\*
+apt-get -y install haproxy
 echo "frontend rif_app_front_http
         bind *:80
         mode http        
