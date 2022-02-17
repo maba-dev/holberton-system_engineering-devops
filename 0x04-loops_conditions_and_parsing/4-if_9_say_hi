@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#!/bin/bash
+
+conpteur=10
+
+while [ $conpteur -ge 2 ]
+do
+  if [[ "$conpteur" == '2' ]]; then
+    echo "Hi"
+  fi
+  echo "Best School"
+  ((conpteur--))
+done
