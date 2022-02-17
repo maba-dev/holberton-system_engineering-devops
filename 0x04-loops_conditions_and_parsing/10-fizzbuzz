@@ -1,0 +1,18 @@
+#!/bin/bash
+
+for ((conpteur = 1; conpteur < 101; conpteur++))
+do
+  if [ $((conpteur%15)) = 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $((conpteur%3)) = 0 ]
+    then
+        echo "Fizz"
+    elif [ $((conpteur%5)) = 0 ]
+    then
+        echo "Buzz"
+    else
+        echo "$conpteur"
+  fi
+
+done
