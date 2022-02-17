@@ -1,0 +1,9 @@
+#!/bin/bash
+
+conpteur=10
+
+while [ $conpteur -ge 1 ]
+do
+  echo "Best School"
+  ((conpteur--))
+done
