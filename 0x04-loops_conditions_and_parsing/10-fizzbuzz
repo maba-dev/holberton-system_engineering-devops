@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+#a Bash script that displays numbers from 1 to 100.
 for ((conpteur = 1; conpteur < 101; conpteur++))
 do
   if [ $((conpteur%15)) = 0 ]
@@ -14,5 +14,4 @@ do
     else
         echo "$conpteur"
   fi
-
 done
