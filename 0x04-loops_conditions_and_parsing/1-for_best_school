@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 for ((conpteur = 0; conpteur < 10; conpteur++))
 do
