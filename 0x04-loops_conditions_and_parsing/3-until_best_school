@@ -1,6 +1,5 @@
-#!/bin/bash
-
-
+#!/usr/bin/env bash
+#a Bash script that displays Best School 10 times.
 conpteur=0
 
 until [ $conpteur -gt 9 ]
