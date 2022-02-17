@@ -1,7 +1,6 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+#a Bash script that loops from 1 to 10 and:
 conpteur=10
-
 while [ $conpteur -ge 1 ]
 do
   if [[ "$conpteur" == '7' ]]; then
