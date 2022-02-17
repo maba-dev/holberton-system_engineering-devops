@@ -2,5 +2,5 @@
 
 for ((conpteur = 0; conpteur < 10; conpteur++))
 do
-echo "Best School"
+  echo "Best School"
 done
