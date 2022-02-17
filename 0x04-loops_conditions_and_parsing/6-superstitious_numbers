@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+# a Bash script that displays numbers from 1 to 20 and:
 conpteur=1
 while [ $conpteur -lt 21 ]
 do
