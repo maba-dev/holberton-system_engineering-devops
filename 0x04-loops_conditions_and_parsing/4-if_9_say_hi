@@ -5,10 +5,9 @@ conpteur=10
 
 while [ $conpteur -ge 1 ]
 do
-  if [[ "$conpteur" == '2' ]]; then
+  if [[ "$conpteur" == '1' ]]; then
     echo "Hi"
-  else
-    echo "Best School"
   fi
+  echo "Best School"
   ((conpteur--))
 done
