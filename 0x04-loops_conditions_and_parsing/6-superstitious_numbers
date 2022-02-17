@@ -1,0 +1,14 @@
+#!/bin/bash
+
+conpteur=1
+while [ $conpteur -lt 21 ]
+do
+  echo $conpteur
+    case "$conpteur" in
+      4) echo "bad luck from China";;
+      9) echo "bad luck from Japan";;
+      17) echo "bad luck from Italy";;
+    esac
+    ((conpteur++))
+
+done
