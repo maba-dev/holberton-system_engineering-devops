@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+conpteur=0
+
+until [ $conpteur -gt 9 ]
+do
+  echo "Best School"
+  ((conpteur++))
+done
