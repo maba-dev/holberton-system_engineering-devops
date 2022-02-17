@@ -1,0 +1,16 @@
+#!/bin/bash
+
+conpteur=10
+
+while [ $conpteur -ge 1 ]
+do
+  if [[ "$conpteur" == '7' ]]; then
+    echo "bad luck"
+  elif [[ "$conpteur" == '3' ]]; then
+    echo "good luck"
+  else
+    echo "Best School"
+  fi
+  ((conpteur--))
+
+done
