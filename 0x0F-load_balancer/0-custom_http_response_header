@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# 0-custom_http_response_header so that it configures a brand new Ubuntu machine to the requirements asked in this task
+sudo apt-get update
+sudo apt-get install nginx
+sudo su
+echo "Hello World" >/var/www/html/index.nginx-debian.html
+sed -i "/server_name _;/a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
+service nginx restart
