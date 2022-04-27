@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#a Bash script that configures a server to the above requirements
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+pkill apache2
+sudo service nginx restart
