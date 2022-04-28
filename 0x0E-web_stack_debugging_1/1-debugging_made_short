@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Make it sweet and short
+rm /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-available/default
+sudo service nginx restart
