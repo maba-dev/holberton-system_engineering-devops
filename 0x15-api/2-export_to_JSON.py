@@ -15,7 +15,7 @@ if __name__ == "__main__":
     response = requests.get(
         "https://jsonplaceholder.typicode.com/users/{}/todos".format(argv[1])
     )
-    Dict = {USER_ID:[]}
+    Dict = {USER_ID: []}
     for i in response.json():
         Dict[USER_ID].append({
             "task": i["title"],
