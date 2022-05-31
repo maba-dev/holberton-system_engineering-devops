@@ -13,7 +13,8 @@ def top_ten(subreddit):
     )
     if subs.status_code == 404:
         print("None")
-    subs = subs.json()
-    data = subs.get('data').get('children')
-    for i in data[:10]:
-        print(i['data']['title'])
+    else:
+        subs = subs.json()
+        data = subs.get('data').get('children')
+        for i in data[:10]:
+            print(i['data']['title'])
