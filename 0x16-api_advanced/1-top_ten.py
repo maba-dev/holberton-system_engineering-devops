@@ -6,6 +6,7 @@ import requests
 
 
 def top_ten(subreddit):
+    """ define a function"""
     subs = requests.get(
         'https://www.reddit.com/r/{}/hot.json'.format(subreddit),
         headers={'User-Agent': 'cherif'}
